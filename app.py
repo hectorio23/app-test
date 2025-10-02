@@ -3,8 +3,7 @@ from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 
 @app.route('/')
-# SIMULANDO UN ERROR
-def index.error():
+def index():
     return render_template('index.html')
 
 
